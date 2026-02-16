@@ -28,7 +28,7 @@ public class Quick {
 
 	public static void main(String[] args) {
 		int[] arr = {10, 7, 8, 9, 1, 5};
-		System.out.println("Before sorting:");
+		System.out.println("Before sorting : ");
 		for (int i = 0; i < arr.length; i++) {
 			System.out.print(arr[i] + " ");
 		}
@@ -36,7 +36,7 @@ public class Quick {
 
 		quickSort(arr, 0, arr.length - 1);
 
-		System.out.println("After QuickSort:");
+		System.out.println("After QuickSort : ");
 		for (int i = 0; i < arr.length; i++) {
 			System.out.print(arr[i] + " ");
 		}

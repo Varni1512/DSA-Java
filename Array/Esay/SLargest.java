@@ -1,5 +1,4 @@
-package Array;
-
+package Esay;
 import java.util.Scanner;
 
 public class SLargest {

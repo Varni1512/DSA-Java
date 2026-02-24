@@ -1,4 +1,4 @@
-package Array;
+package Esay;
 
 public class Maxone {
     public static void main(String[] args) {

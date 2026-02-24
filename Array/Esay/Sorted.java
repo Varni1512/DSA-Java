@@ -1,17 +1,17 @@
-package Array;
+package Esay;
 
 import java.util.Scanner;
 
-public class Duplicate {
-    public static int removeDuplicate(int[] arr){
-        int i = 0;
-        for(int j = 1;j<arr.length;j++){
-            if(arr[i] != arr[j]){
-                arr[i+1] = arr[j];
-                i++;
+public class Sorted {
+    public static boolean sorted_array(int[] arr){
+        for (int i = 1; i < arr.length; i++) {
+            if(arr[i] >= arr[i-1]){
+
+            } else{
+                return false;
             }
         }
-        return i+1;
+        return true;
     }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -21,6 +21,6 @@ public class Duplicate {
             System.out.print("enter num : ");
             arr[i] = sc.nextInt();
         }
-        System.out.println("Total unique element is : "+ removeDuplicate(arr));
+        System.out.println("Array is sorted : " + sorted_array(arr));
     }
 }

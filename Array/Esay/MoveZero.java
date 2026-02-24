@@ -1,4 +1,4 @@
-package Array;
+package Esay;
 
 class Solution {
     public void moveZeroes(int[] nums) {

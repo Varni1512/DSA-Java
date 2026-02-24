@@ -1,4 +1,4 @@
-package Array;
+package Esay;
 
 public class Missing1 {
     public static int missingNum(int[] arr) {

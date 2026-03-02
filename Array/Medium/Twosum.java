@@ -1,5 +1,3 @@
-package Medium;
-
 import java.lang.reflect.Array;
 
 public class Twosum {

@@ -1,5 +1,3 @@
-package Medium;
-
 // Kadane's Algorithm with Subarray Printing
 public class Kadanes1 {
 

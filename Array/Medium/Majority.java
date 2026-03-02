@@ -1,6 +1,4 @@
 //Moor's voting Algorithm
-package Medium;
-
 public class Majority {
     public static int majorityElement(int[] nums) {
         int n = nums.length;        

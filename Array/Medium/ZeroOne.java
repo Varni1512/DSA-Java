@@ -9,7 +9,7 @@
 // If arr[mid] == 1, it’s already in the middle section → just move mid.
 // If arr[mid] == 2, it belongs to the right section → swap with high, only move high.
 
-package Medium;
+
 
 public class ZeroOne {
     public static void sortZeroOneTwo(int[] nums) {

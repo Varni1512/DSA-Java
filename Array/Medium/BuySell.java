@@ -1,5 +1,3 @@
-package Medium;
-
 public class BuySell {
     public static int maxProfit(int[] prices) {
         int mini = prices[0]; 

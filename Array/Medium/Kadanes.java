@@ -1,4 +1,4 @@
-package Medium;
+
 //kadane's algorithm
 public class Kadanes {
     public static int maxSubArray(int[] nums) {
